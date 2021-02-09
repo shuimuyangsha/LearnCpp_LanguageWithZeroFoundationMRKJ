@@ -21,5 +21,11 @@
     <ClCompile Include="..\Code\sl\02\02\02\02.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\Code\sl\02\03\03\03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\sl\02\04\04\04.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

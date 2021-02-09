@@ -1,8 +1,20 @@
+//#include <iostream>
+//using namespace std;
+//void main()
+//{
+//	int i = 0;                       // 定义int型变量i并赋值为0
+//	cout << i << endl;              // 输出变量i的值，并输出一个换行
+//	cout << "HelloWorld" << endl;   // 输出“HelloWorld”，并输出一个换行
+//}
+
+
 #include <iostream>
 using namespace std;
-void main()
+
+int main(void)
 {
-	int i = 0;                       // 定义int型变量i并赋值为0
-	cout << i << endl;              // 输出变量i的值，并输出一个换行
-	cout << "HelloWorld" << endl;   // 输出“HelloWorld”，并输出一个换行
+	int i = 0;
+	cout << i << endl;
+	cout << "hello world!" << endl;
+	return 0;
 }

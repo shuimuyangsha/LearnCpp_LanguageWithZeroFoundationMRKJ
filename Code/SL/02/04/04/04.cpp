@@ -79,3 +79,4 @@ void main()
 	cout << setprecision(0)<<afloat_x << ' ' << setprecision(0) << afloat_y << endl;
 	cout << setprecision(0) << afloat_x << ' ' << setprecision(0) << afloat_y << endl;
 }
+
