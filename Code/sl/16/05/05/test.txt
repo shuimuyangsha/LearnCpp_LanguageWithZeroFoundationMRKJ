@@ -1,3 +1,0 @@
-name sex age
-Mary gril 20
-Jam boy 11

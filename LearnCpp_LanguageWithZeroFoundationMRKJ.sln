@@ -5,11 +5,6 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter16_File", "Chapter16_File\Chapter16_File.vcxproj", "{2AD4AE7F-43EE-41A3-A1E6-B0C0C4A14F4C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E2BD418-5399-4B60-B8AE-353A8E385FF3}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\工作资料\我的图书库\专业理论图书\C语言学习资料\零基础学 C++（全彩版）.pdf = ..\..\..\工作资料\我的图书库\专业理论图书\C语言学习资料\零基础学 C++（全彩版）.pdf
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
