@@ -15,6 +15,7 @@ void main()
 
 	clientaddr.sin_family = AF_INET;					//设置服务器地址家族
 	clientaddr.sin_port = htons(4600);					//设置服务器端口号
+	//clientaddr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
 	clientaddr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
 	m_SockClient = socket(AF_INET, SOCK_STREAM, 0);
 	int i = connect(m_SockClient, (sockaddr*)&clientaddr, sizeof(clientaddr));	//连接超时
