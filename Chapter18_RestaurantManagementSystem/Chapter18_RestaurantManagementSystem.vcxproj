@@ -17,21 +17,21 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{af580153-ae27-4685-b146-82285276370b}</ProjectGuid>
     <RootNamespace>Chapter18RestaurantManagementSystem</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>true</UseDebugLibraries>
+    <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -53,25 +53,23 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -85,16 +83,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -142,8 +141,77 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Programe\Copydlg.cpp" />
+    <ClCompile Include="Programe\CPdlg.cpp" />
+    <ClCompile Include="Programe\Diancaidlg.cpp" />
+    <ClCompile Include="Programe\JHselect.cpp" />
+    <ClCompile Include="Programe\Jiacaidlg.cpp" />
+    <ClCompile Include="Programe\Jiezhangdlg.cpp" />
+    <ClCompile Include="Programe\Jinhuodlg.cpp" />
+    <ClCompile Include="Programe\Jinhuoselect.cpp" />
+    <ClCompile Include="Programe\Kaitaidlg.cpp" />
+    <ClCompile Include="Programe\Logindlg.cpp" />
+    <ClCompile Include="Programe\My.cpp" />
+    <ClCompile Include="Programe\MyDlg.cpp" />
+    <ClCompile Include="Programe\Quanxiandlg.cpp" />
+    <ClCompile Include="Programe\Rcxdlg.cpp" />
+    <ClCompile Include="Programe\Returndlg.cpp" />
+    <ClCompile Include="Programe\Shuliangdlg.cpp" />
+    <ClCompile Include="Programe\SLdlg.cpp" />
+    <ClCompile Include="Programe\SpInfo.cpp" />
+    <ClCompile Include="Programe\StdAfx.cpp" />
+    <ClCompile Include="Programe\Ycxdlg.cpp" />
+    <ClCompile Include="Programe\Zhucedlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Programe\res\142.ico" />
+    <Image Include="Programe\res\167.ico" />
+    <Image Include="Programe\res\2.ico" />
+    <Image Include="Programe\res\33.ico" />
+    <Image Include="Programe\res\42.ico" />
+    <Image Include="Programe\res\57.ico" />
+    <Image Include="Programe\res\61.ico" />
+    <Image Include="Programe\res\66.ico" />
+    <Image Include="Programe\res\71.ico" />
+    <Image Include="Programe\res\82.ico" />
+    <Image Include="Programe\res\91.ico" />
+    <Image Include="Programe\res\background1.bmp" />
+    <Image Include="Programe\res\login.bmp" />
+    <Image Include="Programe\res\My.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programe\msado15.tlh" />
+    <None Include="Programe\msado15.tli" />
+    <None Include="Programe\res\My.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Programe\Copydlg.h" />
+    <ClInclude Include="Programe\CPdlg.h" />
+    <ClInclude Include="Programe\Diancaidlg.h" />
+    <ClInclude Include="Programe\JHselect.h" />
+    <ClInclude Include="Programe\Jiacaidlg.h" />
+    <ClInclude Include="Programe\Jiezhangdlg.h" />
+    <ClInclude Include="Programe\Jinhuodlg.h" />
+    <ClInclude Include="Programe\Jinhuoselect.h" />
+    <ClInclude Include="Programe\Kaitaidlg.h" />
+    <ClInclude Include="Programe\Logindlg.h" />
+    <ClInclude Include="Programe\My.h" />
+    <ClInclude Include="Programe\MyDlg.h" />
+    <ClInclude Include="Programe\Quanxiandlg.h" />
+    <ClInclude Include="Programe\Rcxdlg.h" />
+    <ClInclude Include="Programe\Resource.h" />
+    <ClInclude Include="Programe\Returndlg.h" />
+    <ClInclude Include="Programe\Shuliangdlg.h" />
+    <ClInclude Include="Programe\SLdlg.h" />
+    <ClInclude Include="Programe\SpInfo.h" />
+    <ClInclude Include="Programe\StdAfx.h" />
+    <ClInclude Include="Programe\Ycxdlg.h" />
+    <ClInclude Include="Programe\Zhucedlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Programe\My.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

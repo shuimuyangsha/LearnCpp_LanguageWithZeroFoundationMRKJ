@@ -14,4 +14,193 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Programe\Copydlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\CPdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Diancaidlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\JHselect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Jiacaidlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Jiezhangdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Jinhuodlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Jinhuoselect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Kaitaidlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Logindlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\My.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\MyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Quanxiandlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Rcxdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Returndlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Shuliangdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\SLdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\SpInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Ycxdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Programe\Zhucedlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Programe\res\2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\33.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\42.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\57.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\61.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\66.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\71.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\82.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\91.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\142.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\167.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\background1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\login.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Programe\res\My.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programe\res\My.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Programe\msado15.tlh" />
+    <None Include="Programe\msado15.tli" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Programe\Copydlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\CPdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Diancaidlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\JHselect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Jiacaidlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Jiezhangdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Jinhuodlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Jinhuoselect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Kaitaidlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Logindlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\My.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\MyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Quanxiandlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Rcxdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Returndlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Shuliangdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\SLdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\SpInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Ycxdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Programe\Zhucedlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Programe\My.rc">
+      <Filter>源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
 </Project>
